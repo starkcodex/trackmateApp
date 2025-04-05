@@ -1,0 +1,28 @@
+$primary-color: #007bff;
+$light-button-color: #f0f0f0; /* Light color for buttons */
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7fc;
+}
+
+/* Hero Section */
+.hero-section {
+  text-align: center;
+  padding: 50px;
+}
+
+.v-btn {
+  background-color: $primary-color;
+  color: white;
+  &:hover {
+    background-color: darken($primary-color, 10%);
+  }
+}
+
+.v-btn-light {
+  background-color: $light-button-color;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+}
